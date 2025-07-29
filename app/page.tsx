@@ -1,5 +1,11 @@
+import {Button} from '../src/components/ui/button';
+import {Input} from '../src/components/ui/input';
+
 export default function Home() {
   return (
-    <div className="text-center">Bonsoir !</div>
+    <div className="item-center">
+      <Button>Bonsoir</Button>
+      <Input />
+    </div>
   );
 }
